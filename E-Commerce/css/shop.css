@@ -1,0 +1,33 @@
+.page-header{
+    background-image: url("C:/Users/pc/Desktop/projects/Shopping/Images/banner/b1.jpg");
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-size: cover;
+    padding: 14px;
+}
+.page-header h2,
+.page-header p{     
+    color: #fff;
+}
+.pagination{
+    text-align: center;
+}
+.pagination a{
+    text-decoration: none;
+    border: 1px solid #088178;
+    padding: 10px 13px; 
+    border-radius: 4px;
+    align-items: center;
+    color: #088178;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.2s ease;
+}
+.pagination a:hover{
+    background-color: #088178;
+    color: #fff;
+}

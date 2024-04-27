@@ -1,0 +1,73 @@
+
+.prodetails{
+    display: flex;
+    margin-top: 20px;
+}
+.prodetails .pro-image{
+    margin-right: 50px;
+    width: 40%;
+
+}
+.small-pro-image{
+    display: flex;
+    justify-content: space-between;
+}
+.small-image-col{
+    flex-basis: 24%;
+    cursor: pointer;
+}
+.prodetails .pro-details{
+    width: 50%;
+    padding-top: 30px;
+}
+.prodetails .pro-details h4{
+    padding: 40px 0 20px 0;
+}
+.prodetails .pro-details h2{
+    font-size: 26px;
+}
+.prodetails .pro-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+.prodetails .pro-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.prodetails .pro-details input:focus{
+    outline: none;
+}
+.prodetails .pro-details button{
+    background-color: #088178;
+    color: white;
+}
+.prodetails .pro-details span{
+    line-height: 25px;
+    font-size: 18px;
+    color: #465b52;
+}
+@media(max-width:799px){
+    .prodetails .pro-details{
+        width: 45%;
+    }
+    .prodetails .pro-image{
+        width: 55%;
+    }
+}
+@media(max-width:477px){
+    .prodetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .prodetails .pro-image{
+        width: 100%;
+        margin-right: 0;
+    }
+    .prodetails .pro-details{
+        width: 100%;
+    }
+}
